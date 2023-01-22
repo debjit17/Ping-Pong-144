@@ -1,0 +1,61 @@
+.heading
+{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3
+{
+     display: inline;
+}
+
+.btn
+{
+    font-size: 20px;
+}
+
+h4
+{
+    background-color: #d3cccc;
+    line-height: 1;
+    margin: 0;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    z-index: 10;
+}
+
+.heading button 
+{
+    float: right;
+    border: 1px solid white;
+}
+
+#start, #status
+{
+    font-size: 22px;
+}
+
+.restart
+{
+    position: relative;
+    top: 20px
+}
+
+#canvas
+{
+    position: relative;
+    /*top: 500px;*/
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px ;
+    padding: 0;
+    margin: 0;
+    width: 710px;
+    height: 609px;
+}
+
+#video{
+    position: relative;
+    bottom: 720px;
+}

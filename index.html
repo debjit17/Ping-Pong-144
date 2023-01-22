@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <div class="btn btn-primary heading">
+                <h3>AI PING PONG GAME </h3>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button>
+            </div>
+
+            <br><br>
+            <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+            <br><br>
+            <h3 id="status" class="btn btn-warning"></h3>
+            <br><br>
+            <div id="canvas"></div>
+            <button class="btn btn-warning restart" onclick="restart()">Restart</button>
+            <h4>Game Credit : Debjit</h4>
+            <div id="video"></div>
+        </center>
+
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <p style="text-align: center; font-weight: bold; font-size: 20px; padding-bottom: 0;">Game Guide</p>
+                    </div>
+                    <div class="modal-body">
+                        <ol>
+                            <li>Start Smashing</li>
+                            <li>All the best</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+        <br>
+        <br>
+        <br><br>
+    </body>
+</html>
